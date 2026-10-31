@@ -1,3 +1,21 @@
+"""
+Partie 2 - Étape 3 : Tests de la coopération des tâches asynchrones.
+
+Ce fichier vérifie :
+- La transformation de Clients.commande() en coroutine.
+- La lecture asynchrone des commandes contenues dans lundi.txt.
+- Le respect de l'ordre de récupération des commandes.
+- Le retour de None après la dernière commande.
+- L'exécution complète de la simulation.
+- La préparation de tous les cocktails par le bariste.
+- Le service de tous les cocktails par le serveur.
+- La terminaison du programme sans blocage.
+
+Ces tests valident le fonctionnement général de la simulation.
+La coopération effective entre les tâches est également
+observée manuellement dans les logs du programme.
+"""
+
 import asyncio
 import importlib.util
 import inspect

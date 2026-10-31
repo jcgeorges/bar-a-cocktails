@@ -1,3 +1,18 @@
+"""
+Partie 2 - Étape 1 : Tests de l'introduction des coroutines.
+
+Ce fichier vérifie :
+- La transformation de Serveur.prendre_commande() en coroutine.
+- La transformation de Serveur.servir() en coroutine.
+- La transformation de Bariste.preparer() en coroutine.
+- La déclaration de main() comme fonction asynchrone.
+
+La vérification est réalisée avec inspect.iscoroutinefunction().
+
+Ces tests vérifient la structure asynchrone des fonctions,
+mais pas encore la coopération effective entre les tâches.
+"""
+
 import importlib.util
 import inspect
 from pathlib import Path

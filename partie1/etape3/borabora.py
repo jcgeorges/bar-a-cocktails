@@ -108,15 +108,6 @@ class Clients:
 
         return None
 
-'''
-question pour le prof: la ligne commandes.append((start + when, what.split(",")))
-reprend le calcul fourni dans l'énoncé : les temporisations sont calculées à partir du même instant initial.
-
-mais, la description du fichier mardi présente les nombres comme des délais entre commandes. 
-Il existe donc une différence entre le texte et le code fourni.
-
-je conserve ici le calcul du code pour cette étape
-'''
 
 class Employé(Logable):
 

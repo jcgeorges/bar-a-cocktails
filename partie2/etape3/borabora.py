@@ -1,6 +1,6 @@
 ##################################
 # partie 2
-# etape 2
+# etape 3
 ##################################
 # class accessoire herité de la class list 
 

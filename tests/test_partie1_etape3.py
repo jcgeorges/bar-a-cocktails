@@ -1,3 +1,19 @@
+"""
+Partie 1 - Étape 3 : Tests du système de journalisation.
+
+Ce fichier vérifie :
+- Le fonctionnement des accessoires Pic et Bar.
+- L'enregistrement des actions du pic : ajout et retrait des post-it.
+- L'enregistrement des actions du bar : dépôt et retrait des commandes.
+- La présence du nom de chaque objet dans les messages de log.
+- L'activation des messages lorsque verbose=True.
+- La désactivation des messages lorsque verbose=False.
+
+Les logs sont enregistrés en mémoire avec io.StringIO()
+pour éviter de créer un fichier pendant les tests.
+"""
+
+
 import importlib.util
 import io
 from pathlib import Path

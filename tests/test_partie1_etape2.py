@@ -1,3 +1,16 @@
+"""
+Partie 1 - Étape 2 : Tests de la lecture des commandes depuis un fichier.
+
+Ce fichier vérifie :
+- Le fonctionnement des classes Pic et Bar.
+- Le respect de l'ordre LIFO lors de la récupération des commandes.
+- La lecture des commandes contenues dans lundi.txt.
+- La conversion des commandes en listes de cocktails.
+- Le respect de l'ordre des commandes dans le fichier.
+- Le retour de None lorsqu'il n'y a plus de commandes.
+"""
+
+
 import importlib.util
 from pathlib import Path
 

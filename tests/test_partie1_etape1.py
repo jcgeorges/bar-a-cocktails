@@ -1,4 +1,15 @@
 '''
+"""
+Partie 1 - Étape 1 : Tests des accessoires du bar.
+
+Ce fichier vérifie :
+- L'ajout de commandes sur le pic avec embrocher().
+- La récupération des commandes dans l'ordre LIFO avec liberer().
+- Le dépôt des commandes préparées sur le bar avec recevoir().
+- La récupération des commandes dans l'ordre LIFO avec evacuer().
+- Le retour de None lorsque le pic ou le bar est vide.
+"""
+
 Ici l'instruction assert permet de verifier qu'une condition est vraie:
 - Si la condition est vraie, le programme continue son execution normalement.
 - Si la condition est fausse, une exception AssertionError est levée et le programme s'arrête.

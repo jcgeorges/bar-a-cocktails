@@ -141,13 +141,6 @@ class Serveur(Employé):
             pass
 
 
-'''
-question pour la partie 1:
-L'énoncé indique initialement que le pic et le bar sont deux files FIFO. Pourtant, les exemples de la partie 1 utilisent pop() pour retirer les éléments, ce qui correspond à un fonctionnement LIFO.
-
-je choisis de respecter les exemples d'exécution demandés par l'enoncé mais il me semble avir une contradiction.
-'''
-
 class Bariste(Employé):
 
     def preparer(self):

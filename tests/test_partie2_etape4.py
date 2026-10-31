@@ -1,3 +1,21 @@
+"""
+Partie 2 - Étape 4 : Tests de la synchronisation avec asyncio.Lock.
+
+Ce fichier vérifie :
+- La présence d'un verrou asyncio.Lock dans la classe Serveur.
+- La synchronisation entre la prise de commandes et le service.
+- L'impossibilité pour le serveur de prendre une nouvelle commande
+  pendant qu'il sert un plateau.
+- La fin du service avant le traitement d'une nouvelle commande.
+- Le dépôt correct de la nouvelle commande sur le pic.
+
+Un client fictif est utilisé pour contrôler l'arrivée
+d'une commande pendant le service.
+
+Les logs permettent de vérifier l'ordre des actions
+effectuées par le serveur.
+"""
+
 import asyncio
 import importlib.util
 import io

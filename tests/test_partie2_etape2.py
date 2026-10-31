@@ -1,3 +1,20 @@
+"""
+Partie 2 - Étape 2 : Tests des files asynchrones asyncio.Queue.
+
+Ce fichier vérifie :
+- L'ajout et la récupération des commandes dans le Pic.
+- L'ajout et la récupération des commandes dans le Bar.
+- Le respect de l'ordre FIFO des commandes.
+- La gestion du marqueur None signalant la fin du traitement.
+- L'exécution complète de la simulation avec lundi.txt.
+- La préparation des cocktails par le bariste.
+- Le service de tous les cocktails par le serveur.
+- La terminaison du programme sans blocage.
+
+Les tests vérifient le comportement des files asynchrones
+et le traitement complet des commandes.
+"""
+
 import asyncio
 import importlib.util
 import io
